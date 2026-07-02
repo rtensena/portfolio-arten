@@ -8,7 +8,7 @@ import { Skills } from './components/Skills'
 import { Portfolio } from './components/Portfolio'
 import { Contact } from './components/Contact'
 
-const sectionIds = ['home', 'about', 'experience', 'skills', 'portfolio', 'contact']
+const sectionIds = ['home', 'about', 'skills', 'portfolio', 'contact']
 const firstIntroLine = 'Welcome to my'
 const secondIntroLine = 'Portfolio Website'
 const introBadge = 'Rten'
@@ -86,8 +86,8 @@ export default function App() {
         }
       },
       {
-        rootMargin: '-40% 0px -55% 0px',
-        threshold: [0.25, 0.4, 0.55]
+        rootMargin: '-50% 0px -49% 0px',
+        threshold: 0
       }
     )
 

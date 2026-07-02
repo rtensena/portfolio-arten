@@ -76,7 +76,7 @@ export function Contact() {
 
       {/* Main Centered Content */}
       <motion.div 
-        className="relative z-10 flex-1 flex flex-col items-center justify-center w-full px-gutter mt-20"
+        className="relative z-10 flex-1 flex flex-col items-center justify-center w-full px-gutter pt-40 md:pt-48 pb-10"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
